@@ -138,7 +138,7 @@ endif
 include $(BUILD_EXECUTABLE)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := bootctrl.amlogic
+LOCAL_MODULE := bootctrl.$(TARGET_PRODUCT)
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_MODULE_RELATIVE_PATH := hw
